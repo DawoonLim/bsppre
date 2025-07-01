@@ -5,11 +5,8 @@ library(parallel)
 library(doParallel)
 library(foreach)
 library(doRNG)
-# library(stats)
 library(GIGrvg)
 library(mvnfast)
-
-
 
 
 #########################################################
@@ -47,7 +44,6 @@ community_bsppre <- function(X, community_detection_func, numCores = NULL, seed 
       }
     }
     
-    # Screen 결과를 binary로 변환
     screened_matrix <- pcor(sample_fit_select)
     screened_binary_matrix <- binary_matrix(screened_matrix)
     
