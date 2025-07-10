@@ -5,11 +5,7 @@
 ##########################################################
 # cluster_fast_greedy, cluster_leading_eigen, cluster_edge_betweenness, cluster_spinglass,
 # cluster_walktrap, cluster_louvain, cluster_label_prop, cluster_leiden, cluster_infomap 
-##########################################################
-# 1순위: cluster_louvain - 제일 속도 빠름
-# 2순위: cluster_edge_betweenness 
-# 3순위: cluster_label_prop
-# 4순위: cluster_walktrap
+
 ##########################################################
 ######################## p = 300 #########################
 ######################## n = 100 #########################
